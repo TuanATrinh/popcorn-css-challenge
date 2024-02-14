@@ -15,12 +15,49 @@ body {
   background-color: #D4A76A;
 }
 
-.button {
+.div1{
+  width: 200px;
+  height: 100px;
+  padding: 50px;
+  margin-left: auto;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.div2{
+  width: 200px;
+  height: 100px;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.div3{
+  width: 200px;
+  height: 100px;
+  padding: 50px;
+  margin-right: auto ;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.footer {
   width: 100%;
+  height: 200px;
   padding: 20px;
-  margin: 50px 0;
-  border-radius: 10px;
-  border: 1px solid #805215;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.button {
+  background-color: #805215;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .window {
